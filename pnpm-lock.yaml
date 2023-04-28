@@ -1,0 +1,18 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  app/web_react:
+    specifiers: {}
+
+  packages/react:
+    specifiers:
+      web: workspace:*
+    dependencies:
+      web: link:../web
+
+  packages/web:
+    specifiers: {}
